@@ -51,7 +51,7 @@ footer
 .button
 {
     border-radius:30px;
-    padding:20px 30px;
+    padding:15px 30px;
     text-decoration:none;
     font-size:20px;
 }
@@ -188,7 +188,6 @@ h1
 
 .section
 {
-    height:500px;
     display:flex;
     margin:100px 0px;
 }
@@ -235,9 +234,45 @@ h1
 
 .last-section
 {
-    background-color:#228B22;
-    height:1000px;
-    margin:50px;
+    
+    margin:100px 0px;
+    text-align:center;
+    height:auto;
+}
+
+.last-section > h2
+{
+    font-size:50px;
+}
+
+.last-section > p
+{
+    font-size:20px;
+    line-height:30px;
+    padding:30px 120px;
+}
+
+#streaming-img
+{
+    height:700px;
+}
+
+.ending
+{
+    background-image:url("../img/stars.svg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    width:46%;
+    margin:20px auto;
+    font-size:27px;
+    height:100px;
+    line-height:100px;
+}
+
+.ending-download-mac
+{
+    background-color:#8EA1E1;
+    color:white;
 }
 
 /* Footer */
