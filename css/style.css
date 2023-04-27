@@ -1,0 +1,172 @@
+/* CSS Reset */
+
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/* Generics */
+
+header
+{
+    display:flex;
+    flex-direction:column;
+    background-color:#ADD8E6;
+}
+
+footer
+{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#23272A;
+}
+
+/* Utilities */
+
+.width-70
+{
+    width:70%;
+}
+
+.borders
+{
+    border:2px dashed black;
+}
+
+.separator
+{
+    height:2px;
+    width:100%;
+    background-color: white;
+}
+
+/* Navigation bar */
+
+.navigation-container
+{
+    display:flex;
+    background-color:#DAA520;
+    height:40px;
+    margin:15px auto;
+}
+
+.nav-aside
+{
+    flex-basis:20%;
+    height:100%;
+}
+
+.navigation
+{
+    flex-basis:60%;
+    height:100%;
+}
+
+/* Introduction */
+
+.introduction-flex
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:calc(100% - 70px);
+    background-color:#00008B;
+}
+
+.introduction-container
+{
+    background-color:#EE82EE;
+    flex-basis:50%;
+    height:400px;
+    margin:50px;
+}
+
+/* Main */
+
+.section-container
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.section-container:nth-child(even)
+{
+    background-color:#D3D3D3;
+}
+
+.section
+{
+    height:500px;
+    display:flex;
+    margin:50px;
+}
+
+.section-image
+{
+    background-color:#1E90FF;
+    flex-basis:60%;
+}
+
+.section-text
+{
+    background-color:#FFC0CB;
+    flex-basis:40%;
+}
+
+.last-section
+{
+    background-color:#228B22;
+    height:1000px;
+    margin:50px;
+}
+
+/* Footer */
+
+.info-container
+{
+    display:flex;
+    height:600px;
+    margin-top:10px;
+    margin-bottom:50px;
+}
+
+.socials-info
+{
+    flex-basis:30%;
+    background-color:#F08080;
+}
+
+.discord-info
+{
+    flex-basis:70%;
+    background-color:#20B2AA;
+    display:flex;
+}
+
+.info-column
+{
+    flex-basis:25%;
+    border:2px dashed white;
+}
+
+.footer-bar
+{
+    background-color:#7FFFD4;
+    height:100px;
+    margin-top:30px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.footer-bar-element
+{
+    background-color:#FFB6C1;
+    flex-basis:7%;
+    height:40px;
+}
