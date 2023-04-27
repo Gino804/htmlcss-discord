@@ -9,11 +9,17 @@
 
 /* Generics */
 
+body
+{
+    font-family:sans-serif;
+}
+
 header
 {
     display:flex;
     flex-direction:column;
-    background-color:#ADD8E6;
+    background-color:#3161E0;
+    color:white;
 }
 
 footer
@@ -49,21 +55,60 @@ footer
 .navigation-container
 {
     display:flex;
-    background-color:#DAA520;
-    height:40px;
+    background-color:#3161E0;
+    height:60px;
     margin:15px auto;
 }
 
-.nav-aside
+.nav-logo
 {
     flex-basis:20%;
-    height:100%;
+    display:flex;
+    align-items:center;
+}
+
+.logo
+{
+    height:40px;
 }
 
 .navigation
 {
     flex-basis:60%;
-    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.nav-list
+{
+    list-style-type:none;
+    display:flex;
+}
+
+.nav-list > li > a
+{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    padding:20px;
+}
+
+.nav-login
+{
+    flex-basis:20%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login
+{
+    background-color:white;
+    border:none;
+    border-radius:20px;
+    padding:12px 15px;
+    font-weight:bold;
 }
 
 /* Introduction */
