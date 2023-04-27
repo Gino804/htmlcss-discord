@@ -181,7 +181,17 @@ h1
     align-items:center;
 }
 
-.section-container:nth-child(even)
+.wave
+{
+    margin-bottom:-4px;
+}
+
+.wave-reverse
+{
+    transform:rotate(180deg);
+}
+
+.section-container:nth-child(3), .section-container:nth-child(7)
 {
     background-color:#F6F6F6;
 }
