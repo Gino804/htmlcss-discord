@@ -190,14 +190,24 @@ h1
 {
     height:500px;
     display:flex;
-    margin:50px;
+    margin:100px 0px;
 }
 
 .section-image
 {
     flex-basis:70%;
-    padding-top:30px;
-    padding-left:80px;
+}
+
+#server-img
+{
+    margin-top:30px;
+    margin-left:80px;
+    height:90%;
+}
+
+#voicech-img
+{
+    margin-left:200px;
 }
 
 .section-text
